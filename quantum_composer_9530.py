@@ -311,7 +311,7 @@ if __name__ == '__main__':
     from pprint import pprint
 
     #try:
-    qc = QuantumComposer9530("COM11", debug=True)
+    qc = QuantumComposer9530("COM21", debug=True)
     print(qc.get_idn())
     
     pprint( vars(qc) )
